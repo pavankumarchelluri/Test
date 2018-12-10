@@ -19,7 +19,7 @@ import javax.persistence.Table;
  *
  */
 @Entity
-@Table(name = "EMPLOYEE_NEW")
+@Table(name = "EMPLOYEENEW")
 public class Employee implements Serializable {
 
 	/**
@@ -33,7 +33,7 @@ public class Employee implements Serializable {
 	private String designation;
 	@Column(name = "SALARY", nullable = false, length = 20)
 	private String salary;
-	@Column(name = "DATE OF JOINING", nullable = true)
+	@Column(name = "DATEOFJOINING", nullable = true)
 	private Date doj;
 
 	//private Address address;
